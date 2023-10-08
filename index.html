@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="website.css"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionHome">
+        <div class="d-flex flex-column justify-content-end background1" >
+            <div class="cardbg1 para1">
+            <h1 >TOURISM</h1>
+            <p>plan u r trip all over the world</p>
+            <button class="btn btn-primary" onclick="display('sectionfavouriteplaces')">get started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfavouriteplaces">
+        <div class="background">
+            <h1>Favourite places</h1>
+            <div class="cardbg d-flex flex-row "onclick="display('sectiontaj')">
+                <div ><h1 class="h2">Taj Mahal</h1>
+                <p class="para " > The Taj Mahal is a beautiful place to visit  and its beautiness attracts our heart mostly</p></div>
+               <div><img src="https://lp-cms-production.imgix.net/news/2019/06/taj-mahal.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4" height="80px" width="60"></div>
+            </div>
+            <div class="cardbg d-flex flex" onclick="display('sectionpalace')">
+                <div ><h1 class="h2">Mysore palace</h1>
+                <p class="para ">The Mysore Palace is a historical palace and the royal residence at Mysore .</p></div>
+                <div><img src="/home/rgukt-ongole/Pictures/mysore palace.jpeg" height="80px" width="60">  </div>    
+            </div>
+            <div class="cardbg d-flex flex" onclick="display('sectionvaranasi')">
+                <div ><h1 class="h2">Varanasi</h1>
+                <p class="para ">Varanasi Temple is most famous Hindu temples dedicated to Lord Shiva</p></div>
+                <div><img src="/home/rgukt-ongole/Pictures/varanasi.jpeg" height="80px" width="60">  </div>    
+            </div>
+            <div class="cardbg d-flex flex" onclick="display('sectiongoldentemple')">
+                <div ><h1 class="h2">golden temple</h1>
+                <p class="para ">Amritsar is world-famous for the beautiful and highly revered Golden Temple</p></div>
+                <div><img src="/home/rgukt-ongole/Pictures/golden temple.jpeg" height="80px" width="60">  </div>    
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionHome')">back</button>
+        </div>
+        </div>
+     <div id="sectiontaj">
+        <div class="detail-card">
+            <h1 class="detail">Detailed view</h1>
+            <div class="dv-card-h1">
+                <div class="dv-card-carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://th.bing.com/th/id/R.7a3edd63d8d0e71840b019c4d9ed9955?rik=TSeccCGjbw5TUQ&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2ftaj-mahal..jpg&ehk=bfa%2fNC0aEDxw7eydGMq%2bKom8YrBeQZLqUrpIyBI5tP4%3d&risl=&pid=ImgRaw&r=0" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>          
+                    <div class="dv-card-para"> 
+                       <h2 style="color: black;">Taj Mahal</h2>
+                         <p>The Taj Mahal is considered to be the greatest architectural achievement in the whole range of Indo-Islamic architecture. Its recognised architectonic beauty has a rhythmic combination of solids and voids, concave and convex and light shadow; such as arches and domes further increases the aesthetic aspect. Not a piece of architecture, as other buildings are, but the proud passions of an emperor’s love wrought in living stones.</p>
+                        
+                    </div>
+                </div>
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionfavouriteplaces')">back</button>
+        </div>
+    
+     </div>
+     <div id="sectionpalace">
+        <div class="detail-card">
+            <h3 class="detail">Detailed view</h3>
+            <div class="dv-card-h1">
+                <div class="dv-card-carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace1-img.png" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace2-img.png" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace3-img.png" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>          
+                    <div class="dv-card-para"> 
+                       <h2 style="color: black;">Mysore palace</h2>
+                         <p>Mysore Palace, also called Amba Vilas Palace, is one of the most magnificent and largest palaces in India. Situated in the southern state of Karnataka, it used to be the official residence of the Wodeyar Dynasty, the rulers of Mysore from 1399 to 1950. The grand palace stands tall in the heart of Mysore city and attracts visitors from across the world. Being one of the prime attractions in India after the Taj Mahal, it certainly deserves a place in every traveler’s bucket list.</p>
+                        
+                    </div>
+                </div>
+        </div>
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionfavouriteplaces')">back</button>   
+     </div>
+     <div id="sectionvaranasi">
+            <div class="detail-card">
+        <h3 class="detail">Detailed view</h3>
+        <div class="dv-card-h1">
+            <div class="dv-card-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi3-img.png" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>          
+                <div class="dv-card-para"> 
+                   <h2 style="color: black;">Varanasi Temple</h2>
+                     <p>Sri Kashi Vishwanath Temple also known as the Golden Temple, it is dedicated to Lord Shiva, the presiding deity of the city. Varanasi is Said to be the point at which the first jyotirlinga, the fiery pillar of light by which shiva manifested has supremacy over others gods, broke through the Earth’s crust and flared towards the heavens. More than the Gaths and even the Ganga, the Shivalinga installed in the temple remains the devotional focus of Varanasi.</p>
+                </div>   
+                </div>
+            </div>
+    </div>
+    <button class="btn btn-primary" onclick="display('sectionfavouriteplaces')">back</button>
+    </div > 
+   <div id="sectiongoldentemple">
+    <div class="detail-card">
+        <h1 class="detail">Detailed view</h1>
+        <div class="dv-card-h1">
+            <div class="dv-card-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="/home/rgukt-ongole/Pictures/golden temple2.jpeg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://cdn.wallpapersafari.com/92/89/jpNi4o.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>          
+                <div class="dv-card-para"> 
+                   <h2 style="color: black;">The Golden temple</h2>
+                     <p>The Golden Temple, also known as Harmandir Sahib is a gurdwara located in the city of Amritsar, Punjab, India. There are many places to visit Near Golden Temple like Jallianwala Bagh, Wagah Border, Harike Wetland, Bathinda Fort..</p>
+                    
+                </div>
+            </div>
+    
+    </div>
+    </div>
+    <button class="btn btn-primary" onclick="display('sectionfavouriteplaces')">back</button>
+   </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>    
+</body>
+</html>
